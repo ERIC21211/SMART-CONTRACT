@@ -1,3 +1,44 @@
+# Property App Smart Contract
+
+This repository contains the smart contract implementation for the Property App, a decentralized application (DApp) designed for managing property transactions. The smart contract is written in PyTeal, the Python binding for writing Algorand smart contracts.
+
+## Description
+
+The smart contract facilitates various operations related to property transactions, including creation, management, and updating of property listings. It ensures the integrity and security of transactions while leveraging the Algorand blockchain's features for transparency and decentralization.
+
+## Implementation Details
+
+- **Smart Contract Language**: PyTeal
+- **Blockchain Platform**: Algorand
+- **Deployment Method**: On-chain deployment
+- **Testing Environment**: Algorand TestNet
+
+## Usage
+
+To deploy the smart contract and initialize the Property App:
+
+1. Ensure you have your unique MNEMONIC key ready.
+2. Use your unique address on the Algorand TestNet to add funds to your account.
+3. Deploy the smart contract to the Algorand TestNet using the Algorand SDK or any compatible tool.
+4. Confirm the deployment by interacting with the deployed smart contract using your wallet or any Algorand-compatible client.
+
+## Important Information
+MNEMONIC KEY can be located in the Config file in the property Backend repository.
+Transaction ID if needed will be available on request. 
+
+
+
+## Repository Structure
+
+- `/contracts`: Contains the PyTeal smart contract files.
+- `/scripts`: Utility scripts for deployment and interaction with the smart contract and test of logic.
+
+
+## Further Instructions
+The instructions below contain pre steps taken to develop the smart contract.
+
+
+
 
 # Algorand Song Vote Tutorial
 
